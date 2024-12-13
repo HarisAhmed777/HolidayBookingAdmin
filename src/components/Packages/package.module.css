@@ -1,0 +1,55 @@
+.overflow{
+    width: 83% !important;
+}
+
+.input{
+    border: none;
+    width: 90%;
+    border-radius: 0px !important;
+    border-bottom: 2px solid gainsboro;
+}
+.input:focus{
+    outline: none !important;
+    /* border: none !important; */
+    border: 0px;
+    border-bottom: 2px solid yellow;
+}
+.active{
+    background-color: blue !important;
+    color: whitesmoke;
+}
+.tablist{
+    /* background-color: blue; */
+    display: inline;
+    border: none;
+    padding: 0px 10px;
+}
+.toolbar {
+    display: flex;
+    gap: 10px;
+    /* height: 300px; */
+    margin-bottom: 10px;
+  }
+  /* .inputte{
+    height: 300px;
+    width: 100%;
+  } */
+  .toolbar button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .toolbar button.is-active {
+    background-color: #007bff;
+    color: white;
+  }
+  .tabinput{
+    height:calc();
+    border: none;
+    width: 90%;
+    border-radius: 0px !important;
+    border-bottom: 2px solid gainsboro;
+  }

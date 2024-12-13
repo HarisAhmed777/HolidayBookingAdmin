@@ -1,0 +1,91 @@
+.login-container, .signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    /* max-width: 400px; */
+}
+
+
+
+.login-container p, .signup-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.form-control-both, .form-control-sign {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background: none;
+    outline: none;
+    transition: border-bottom-color 0.3s ease;
+    color: #fff;
+}
+
+.form-control-both:focus, .form-control-sign:focus {
+    border-bottom-color: #ffcc00;  
+}
+
+.btn-login, .btn-signup {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ffcc00;  
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-login:hover, .btn-signup:hover {
+    background-color: #e6b800;  
+}
+
+.error-messagelogin, .error-message {
+    font-size: 15px !important;
+    font-family: serif;
+    color: #ff4d4d;
+}
+
+@media (max-width: 380px) {
+    .signup-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .form-control-both, .form-control-sign {
+        padding: 8px;
+        margin: 8px 0;
+        width: 90%;
+    }
+    .phn{
+        width: 95% !important;
+    }
+
+    .btn-login, .btn-signup {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .login-container p, .signup-container h1 {
+        font-size: 20px;
+    }
+}

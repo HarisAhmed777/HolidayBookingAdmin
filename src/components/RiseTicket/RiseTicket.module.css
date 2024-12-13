@@ -1,0 +1,53 @@
+.input{
+    width: 90%;
+    height: 40px;
+    background-color:#E6E8ED ;
+    outline: none;
+    padding-left: 10px;
+    border: 2px solid ghostwhite;
+}
+.facilityName,.header1, .header2, .header3{
+    color: black;
+    /* padding: 10px; */
+}
+.facilityName{
+    font-size: 20px;
+}
+.header3{
+    border-bottom: 1px solid black;
+}
+.printSection{
+    font-size: 16px;
+    color: black;
+    /* text-align: center; */
+}
+.riseticket{
+    background-color: #10a674;
+    padding:5px 10px 5px 10px ;
+    text-align: center;
+    font-weight: bold ;
+    text-transform: uppercase;
+    color: white;
+}
+.selectmodule{
+    width: 95%;
+    border: 1px solid grey;
+    outline:none;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.update{
+    width: 100px;
+    padding:5px 10px 5px 10px;
+    background-color: #10a674;
+    border: none;
+    border-radius: 3px;
+    color:white;
+    outline: none;
+}
+.updatediv{
+    width: 90%;
+    text-align: end;
+}

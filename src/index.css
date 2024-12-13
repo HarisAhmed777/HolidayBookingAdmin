@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+a{
+  
+    text-decoration: none;
+    color: inherit;
+}
+h2 {
+    font-family: 'Roboto';
+  }
+  
+  p {
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+  .tiptap{
+    min-height: 300px;
+    width: 95%;
+    margin: 10px;
+    padding: 10px 10px 5px 10px;
+    background-color: gainsboro;
+    outline:none;
+  }
+  .tiptop:focus{
+    outline: navy;
+    border: 1px solid yellow !important;
+  }

@@ -1,0 +1,78 @@
+.zmdi {
+    display: inline-block;
+    font-size: 1.35rem;
+    margin-right: 5px;
+    min-width: 25px;
+  }
+  
+  
+  .cardList {
+    width: 100%;
+  }
+  
+  .card {
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .card .zmdi {
+    color: white;
+    font-size: 28px;
+    opacity: 0.3;
+    position: absolute;
+    right: 13px;
+    top: 13px;
+  }
+  
+  .stat {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 8px;
+    margin-top: 25px;
+    padding: 10px 10px 0;
+    text-transform: uppercase;
+  }
+  
+  .title {
+    display: inline-block;
+    font-size: 12px;
+    padding: 10px 10px 0;
+    text-transform: uppercase;
+  }
+  
+  .value {
+    font-size: 28px;
+    padding: 0 10px;
+  }
+  
+  .blue {
+    background-color: #2298F1;
+  }
+  
+  .green {
+    background-color: #66B92E;
+  }
+  
+  .orange {
+    background-color: #DA932C;
+  }
+  
+  .red {
+    background-color: #D65B4A;
+  }
+  
+  .sthe{
+      font-size: x-small !important;
+      height: 16px;
+  }
+
+  
+
+
+
+    
+
+  
+  
