@@ -93,7 +93,7 @@ useEffect(() => {
             <div className={`${styles.card} ${styles.red}`}>
               <div className={styles.title}>Booking amount </div>
               <i className="zmdi zmdi-download"></i>
-              <div className={styles.value}>Rs : {totalamout.toLocaleString('en-IN')}</div>
+              <div className={styles.value}>Rs : {totalamout}</div>
               <div className={styles.stat}>
               <a href="" className="small-box-footer">More info <i className="fas fa-arrow-circle-right" /></a>
               </div>
